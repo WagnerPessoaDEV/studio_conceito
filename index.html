@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Conceito | Tatuagem Autoral</title>
+    <meta name="description" content="Studio Conceito - Tatuagens autorais, fineline, blackwork e old school. Agende seu horário.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="siteHeader">
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">STUDIO <span class="logo-highlight">CONCEITO</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-item">Início</a></li>
+                    <li><a href="#about" class="nav-item">Sobre</a></li>
+                    <li><a href="#gallery" class="nav-item">Trabalhos</a></li>
+                    <li><a href="#team" class="nav-item">Tatuadores</a></li>
+                    <li><a href="#booking" class="nav-item">Agendar</a></li>
+                </ul>
+                <a href="#booking" class="btn btn-gold nav-cta">AGENDAR</a>
+                <div class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="brick-bg"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-sparkles" aria-hidden="true">
+            <span>★</span><span>✦</span><span>★</span><span>✦</span><span>★</span>
+        </div>
+
+        <div class="container hero-content fade-in-section">
+            <span class="eyebrow">STUDIO CONCEITO</span>
+            <h1 class="main-title">TATUAGEM <span class="title-gold">AUTORAL</span></h1>
+            <p class="lead-text">Cada traço conta uma história. Ambiente exclusivo, materiais premium e artistas prontos para transformar sua ideia em arte permanente.</p>
+            <div class="cta-group">
+                <a href="#booking" class="btn btn-gold">AGENDAR HORÁRIO</a>
+                <a href="#gallery" class="btn btn-outline-gold">VER TRABALHOS</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-cue" aria-label="Rolar para baixo">↓</a>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title fade-in-section">NOSSO <span class="text-gold">CONCEITO</span></h2>
+            <p class="section-subtitle fade-in-section">Mais que um estúdio, um espaço para transformar ideias em arte autêntica — com técnica, higiene e respeito ao seu estilo.</p>
+
+            <div class="stats-row fade-in-section">
+                <div class="stat">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Anos de estrada</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Tatuagens feitas</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Materiais descartáveis</span>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card fade-in-section">
+                    <div class="feature-icon">✒️</div>
+                    <h3>Design Autoral</h3>
+                    <p>Projetos exclusivos, criados junto com você do zero até a pele.</p>
+                </div>
+                <div class="feature-card fade-in-section">
+                    <div class="feature-icon">🧤</div>
+                    <h3>Biossegurança</h3>
+                    <p>Material 100% descartável e ambiente esterilizado em todas as sessões.</p>
+                </div>
+                <div class="feature-card fade-in-section">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Todos os Estilos</h3>
+                    <p>Fineline, blackwork, old school, flash e muito mais em um só lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2 class="section-title fade-in-section">GALERIA DE <span class="text-gold">TRABALHOS</span></h2>
+            <p class="section-subtitle fade-in-section">Uma amostra dos estilos que trabalhamos no estúdio.</p>
+
+            <div class="gallery-filters fade-in-section">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="fineline">Fineline</button>
+                <button class="filter-btn" data-filter="blackwork">Blackwork</button>
+                <button class="filter-btn" data-filter="oldschool">Old School</button>
+                <button class="filter-btn" data-filter="flash">Flash</button>
+            </div>
+
+            <div class="gallery-grid fade-in-section" id="galleryGrid">
+                <div class="gallery-card" data-category="fineline">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M30 70 Q35 30 50 20 Q65 30 70 70 M50 20 L50 10 M40 50 Q50 45 60 50" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Fineline</span>
+                </div>
+                <div class="gallery-card" data-category="blackwork">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M50 15 L65 45 L50 40 L35 45 Z M25 55 L75 55 L65 85 L35 85 Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Blackwork</span>
+                </div>
+                <div class="gallery-card" data-category="oldschool">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M50 20 C30 20 25 40 35 50 C25 60 30 80 50 80 C70 80 75 60 65 50 C75 40 70 20 50 20 Z M40 45 Q50 55 60 45" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Old School</span>
+                </div>
+                <div class="gallery-card" data-category="flash">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><circle cx="50" cy="45" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M35 60 Q50 75 65 60" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Flash</span>
+                </div>
+                <div class="gallery-card" data-category="oldschool">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M50 15 L55 35 L75 35 L58 47 L65 68 L50 55 L35 68 L42 47 L25 35 L45 35 Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Old School</span>
+                </div>
+                <div class="gallery-card" data-category="blackwork">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M50 10 L50 90 M20 30 L80 30 M25 50 L75 50 M30 70 L70 70" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Geométrico</span>
+                </div>
+                <div class="gallery-card" data-category="fineline">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M30 80 Q20 50 40 40 Q35 25 50 20 Q65 25 60 40 Q80 50 70 80" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Fineline</span>
+                </div>
+                <div class="gallery-card" data-category="flash">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M50 20 L50 80 M35 30 Q20 45 35 65 M65 30 Q80 45 65 65" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Flash</span>
+                </div>
+                <div class="gallery-card" data-category="blackwork">
+                    <svg viewBox="0 0 100 100" class="ink-icon"><path d="M50 15 C20 15 20 50 50 50 C80 50 80 85 50 85" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <span class="gallery-tag">Blackwork</span>
+                </div>
+            </div>
+            <p class="gallery-note fade-in-section">* Galeria ilustrativa — fotos reais dos trabalhos serão adicionadas em breve.</p>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <h2 class="section-title fade-in-section">NOSSOS <span class="text-gold">TATUADORES</span></h2>
+            <p class="section-subtitle fade-in-section">Cada artista com uma assinatura própria — escolha quem combina com sua ideia.</p>
+
+            <div class="team-grid">
+                <div class="team-card fade-in-section">
+                    <div class="team-avatar">✎</div>
+                    <h3 class="team-name">Rafael Santos</h3>
+                    <p class="team-role">Blackwork &amp; Geométrico</p>
+                    <a href="#" class="team-social" target="_blank" rel="noopener noreferrer">@rafael.tattoo</a>
+                </div>
+                <div class="team-card fade-in-section">
+                    <div class="team-avatar">✎</div>
+                    <h3 class="team-name">Bia Ferreira</h3>
+                    <p class="team-role">Fineline &amp; Botânico</p>
+                    <a href="#" class="team-social" target="_blank" rel="noopener noreferrer">@bia.ink</a>
+                </div>
+                <div class="team-card fade-in-section">
+                    <div class="team-avatar">✎</div>
+                    <h3 class="team-name">Duda Cardoso</h3>
+                    <p class="team-role">Old School &amp; Colorida</p>
+                    <a href="#" class="team-social" target="_blank" rel="noopener noreferrer">@duda.tattoo</a>
+                </div>
+                <div class="team-card fade-in-section">
+                    <div class="team-avatar">✎</div>
+                    <h3 class="team-name">Marcão</h3>
+                    <p class="team-role">Flash &amp; Retrato</p>
+                    <a href="#" class="team-social" target="_blank" rel="noopener noreferrer">@marcao.arts</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="container">
+            <h2 class="section-title fade-in-section">AGENDE SEU <span class="text-gold">HORÁRIO</span></h2>
+            <p class="section-subtitle fade-in-section">Preencha os dados e fale direto com a gente pelo WhatsApp.</p>
+
+            <div class="booking-wrapper fade-in-section">
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="clientName">Nome</label>
+                        <input type="text" id="clientName" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientPhone">WhatsApp</label>
+                        <input type="tel" id="clientPhone" class="form-control" placeholder="(21) 90000-0000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientStyle">Estilo desejado</label>
+                        <select id="clientStyle" class="form-control">
+                            <option value="Fineline">Fineline</option>
+                            <option value="Blackwork">Blackwork</option>
+                            <option value="Old School">Old School</option>
+                            <option value="Flash">Flash</option>
+                            <option value="Outro">Outro / Não sei ainda</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientMessage">Sua ideia</label>
+                        <textarea id="clientMessage" class="form-control" rows="4" placeholder="Conte um pouco sobre a tatuagem que você imagina..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold" style="width:100%;">ENVIAR PELO WHATSAPP</button>
+                </form>
+
+                <div class="booking-info">
+                    <div class="info-block">
+                        <h4>Endereço</h4>
+                        <p>Rua Adoração (Antiga rua 14), 228</p>
+                        <p>Vila do João, Maré, Rio de Janeiro - RJ</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Horário de funcionamento</h4>
+                        <p>Segunda a Sábado<br>10h às 22h</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Contato direto</h4>
+                        <a href="https://wa.me/5521965324853" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold" style="display:inline-block; margin-top:8px;">CHAMAR NO WHATSAPP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">STUDIO <span class="text-gold">CONCEITO</span></div>
+            <div class="socials">
+                <a href="https://www.instagram.com/studio_phconceito/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+                <a href="https://wa.me/5521965324853" target="_blank" rel="noopener noreferrer">WHATSAPP</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">TIKTOK</a>
+            </div>
+            <p class="copyright">&copy; 2026 Studio Conceito. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
