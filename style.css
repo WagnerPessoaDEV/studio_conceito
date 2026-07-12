@@ -498,8 +498,11 @@ section {
 /* ============ TEAM ============ */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     gap: 24px;
+    justify-items: center;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .team-card {
